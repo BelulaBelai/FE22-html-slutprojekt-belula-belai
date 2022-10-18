@@ -1,0 +1,59 @@
+body {
+  min-height: 100vh;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .homeBody {
+    background-image: linear-gradient(
+      lightpink,
+      #c7747a,
+      #f0f082,
+      #c56a70,
+      lightblue,
+      #98930b,
+      #f9e12a,
+      #ae4b0a,
+      rgb(183, 101, 183),
+      rgb(122, 25, 122),
+      rgb(98, 98, 247)
+    );
+  }
+}
+
+footer {
+  border: solid 1px black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: sticky;
+  top: 100%;
+  margin-top: 5%;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 80%;
+  border: 1px solid black;
+  padding: 5%;
+}
+
+.projectDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  width: 80%;
+  border: 1px solid black;
+  padding: 3%;
+}
